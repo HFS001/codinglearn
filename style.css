@@ -826,6 +826,29 @@ p {
 
 
 
+/* HTML page Section */
+/* 🔥 Marketing Section */
+.marketing {
+  background: linear-gradient(60deg, #485563, #29323c);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 30px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.marketing h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.marketing p {
+  font-size: 1.6rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
 
 
 

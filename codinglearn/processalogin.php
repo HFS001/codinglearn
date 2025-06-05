@@ -18,7 +18,7 @@ if (!empty($_POST)) {
             $_SESSION['id'] = $userdata['userid'];
             $_SESSION['username'] = $userdata['username'];
 
-            header("Location: home.html");
+            header("Location: ../index.html");
             exit();
         } else {
             header("Location: index.php?error=1");

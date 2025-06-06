@@ -5,6 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Python - Coding Learn</title>
   <link rel="stylesheet" href="style3.css">
+   <style>
+    .imagem-python {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border: 4px dashed orange;
+    }
+
+    .imagem-python:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+    .linkw3 {
+    display: inline-block;
+    text-align: center;
+    font-size: 1.15em;
+    color: #fff;
+    background: linear-gradient(90deg, #ff7e70 60%, #ffb199 100%);
+    text-decoration: none;
+    margin: 2em auto 0 auto;
+    padding: 0.7em 2.2em;
+    border-radius: 22px;
+    font-weight: 600;
+    box-shadow: 0 4px 14px rgba(255, 126, 112, 0.13);
+    transition: background 0.25s, color 0.25s, transform 0.22s;
+}
+.linkw3:hover, .linkw3:focus {
+    background: linear-gradient(90deg, #ffb199 60%, #ff7e70 100%);
+    color: #fff;
+    transform: scale(1.04);
+    box-shadow: 0 8px 24px rgba(255, 126, 112, 0.18);
+    outline: 2px solid #ffd6cf;
+    outline-offset: 2px;
+}
+    
+  </style>
 </head>
 <body>
 <nav>
@@ -23,8 +64,8 @@
     <h2 class="primeiroh2">Aprenda Linguagens de Programação</h2>
     <h2>Introdução ao Python</h2>
     <p>Python é uma linguagem de programação de alto nível, interpretada e de propósito geral. É amplamente utilizada para desenvolvimento web, automação, análise de dados, inteligência artificial e muito mais.</p>
-    <a href="https://www.w3schools.com/python/default.asp">w3schools</a><br>
-    <img src="Imagens/Python.png" alt="Python" width="150">
+    <a href="https://www.w3schools.com/python/default.asp" class="linkw3">w3schools</a><br>
+    <img src="Imagens/python.jpg" alt="Python code image" class="imagem-python">
   </section>
 
   <section class="section">
@@ -73,7 +114,7 @@
 </div>
 </section>
 
-  <section class="section">
+  <section class="exercicios">
     <h2>Exercícios Funções</h2>
     <ol>
         <li>Faça uma função que leia um vetor de 5 números inteiros e mostre-os.</li>
@@ -89,7 +130,7 @@
     </ol>
   </section>
 
-  <section class="section">
+  <section class="exercicios">
     <h2>Exercícios Loops</h2>
     <ol>
         <li>Faça uma funções  que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.</li>
@@ -105,7 +146,7 @@
     </ol>
   </section>
 
-  <section class="section">
+  <section class="exercicios">
     <h2>Exercícios Arrays</h2>
     <ol>
       <li>Faça uma função que leia um vetor de 5 números inteiros e mostre-os.</li>
